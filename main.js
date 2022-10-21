@@ -1,0 +1,14 @@
+"use strict";
+exports.__esModule = true;
+var literatura_1 = require("./literatura");
+var diccionarios_1 = require("./diccionarios");
+var literatura1 = new literatura_1["default"]();
+var diccionario = new diccionarios_1["default"]();
+literatura1.asignarClasificacion();
+literatura1.asignarAutor();
+literatura1.asignarTitulo();
+diccionario.asignarClasificacion();
+diccionario.asignarAutor();
+diccionario.asignarTitulo();
+console.log(literatura1);
+console.log(diccionario);

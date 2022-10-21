@@ -1,0 +1,42 @@
+Ejercicio 1:
+Con todo lo aprendido hasta el momento optimizar el siguiente codigo,
+-teniendo presente todo lo hablado sobre buenas practicas- 
+ver que herramientas de las hasta ahora vistas se pueden utilizar 
+(composicion, herencia, polimorfismo, etc).
+
+class Dog {
+    public name: string;
+    constructor(name: string) {
+      this.name = name;
+    }
+    public makeSound(): void {
+      console.log ('wuff wuff\n');
+    }
+   }
+   class Cat {
+    public name: string;
+    constructor(name: string) {
+      this.name = name;
+    }
+     public makeSound(): void {
+      console.log('meow meow\n');
+    }
+   }
+   let minino: Cat = new Cat('Pocky');
+   minino.makeSound(); // -> meow meow
+   let firulais: Dog = new Dog('Pocky');
+   firulais.makeSound(); // -> wuff wuff
+
+   Para optimizar este codido haria una  super clase llamada animales o mascotas  para que luego las sub clases
+   puedan herredar sus atributos y metodos. 
+   El atributo name y el metodo o función makeSound los escribiria en la super clase para ahorrar código.
+   Las sub clase se formarian con el nombre class + nombre de la clase + extends + nombre de la super clase.
+   Para poder aplicar polimorfismo deberiamos poner super en el construtor de cada sub clase y de sea manera 
+   adaptar el metodo de la super clase a la subclase.
+   El nombre de las variables deberia ser representativo por ejemplo perro o dog y/o gato o cat.
+   En los atributos de las clases se recomienda colocar  el modificador private, o protected en caso que se quiera modificar 
+   en una sub clase.
+   El constructor deberia llevar el modificador public.
+   Separar las clases en distintas carpetas sería una opción muy recomendable para facilitar la lectura del código,
+   para ello se debe anteponer a las clase que se van a exportar  las palabras export default y luego importalas en la otra clase con 
+   import + nombre de la clase+ from + ruta del archivo (entre comillas).

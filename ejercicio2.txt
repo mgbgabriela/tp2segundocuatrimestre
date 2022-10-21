@@ -1,0 +1,28 @@
+Responder las siguientes preguntas
+ 1- Que es un objeto?
+ 2- Que es una clase?A que se llama metodo constructor?
+3- Que son los modificadores de acceso?
+4- Que diferencia hay entre uno privado y uno protegido?
+5- Cuando se usa el this?
+6- Cuando se usa el super?
+7- A que se llama sub-clase, o clase hija?
+
+1- Un objeto es concepto abstracto en programación, hace referencia a una instancia de una clase
+
+2- Una clase es la manera en que se pueden crear los objetos, se definen el ella los atributos 
+y los métodos que el objeto tendrá. El método constructor es una funcion especial que permite
+crear un objeto a partir de los parametros que se le pasen.
+
+3- Los modificadores de acceso son palabras claves que se utilizan para permitir o no el acceso 
+a esa información al usuario (public, protected, private) En caso de no colocar un modificador se considera public.
+
+4- La diferencia que existe entre el modificador directo private y protected es que en este último la información se 
+puede acceder y modificar desde una sub clase, en el private no.
+
+5- La palabra this se usa cuando queremos acceder a la instancia que esta dentro de la clase.
+
+6- La palabra super se usa en el constructor de una subclase para poder acceder y modificarlos métodos
+de la clase padre.
+
+7- Sub clase o clase hija hace referencia a las clases que se encuentran dentro de una super clase 
+y heredan sus atributos y métodos.

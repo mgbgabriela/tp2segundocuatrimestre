@@ -1,0 +1,19 @@
+{
+  "name": "tp2segundocuatrimestre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgbgabriela/tp2segundocuatrimestre.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgbgabriela/tp2segundocuatrimestre/issues"
+  },
+  "homepage": "https://github.com/mgbgabriela/tp2segundocuatrimestre#readme"
+}
